@@ -1,0 +1,40 @@
+
+.row:before,
+.row:after {
+    display: table;
+    content: " ";
+    clear: both;
+}
+.container {
+    width: 970px;
+    margin: 0 auto;
+    position: relative;
+}
+.one,
+.one-third,
+.two-third,
+.one-fourth,
+.half {
+    width: 100%;
+}
+
+@media only screen and (min-width: 800px) {
+    .one {
+        width: 100%;
+    }
+    .half {
+        width: calc(100% / 2);
+    }
+    .one-third {
+        width: calc(100% / 3);
+    }
+    .one-fourth {
+        width: calc(100% / 4);
+    }
+    .two-thirds {
+        width: calc(100% / 3 * 2);
+    }
+    .column {
+        float: left;
+    }
+}

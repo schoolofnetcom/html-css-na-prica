@@ -1,0 +1,111 @@
+body {
+    font-family: "LatoRegular";
+}
+#header {
+    padding: 1em 0;
+}
+
+#header .nav {
+	text-align: right;
+}
+#header .nav a {
+    text-decoration: none;
+    padding: 0 1em;
+    color: #292929;
+}
+
+#header .bg {
+    background: linear-gradient(#E9EEF2, #E6EBEF);
+    margin: 2em 0;
+    min-height: 400px;
+    text-align: center;
+}
+
+#header .bg h1 {
+    padding: 1.5em 0 0 0;
+    font-size: 3em;
+}
+
+#content {
+    padding: 0 0 4em 0;
+}
+#content h4 {
+    font-size: 1.5em;
+    padding: 1em;
+}
+#content p {
+    padding: 1.5em;
+}
+#content .right {
+    float: right;
+    transform: scaleX(-1);
+}
+#content .right .text {
+    transform: scaleX(-1);
+}
+
+#contact {
+    background: #ececec;
+    padding: 2em 0;
+    text-align: center;
+}
+
+#footer {
+    background: #333333;
+    color: #ffffff;
+}
+
+#footer .social {
+    text-align: right;
+    margin: 1em 0 0 0;
+}
+
+#footer .social a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0.9em;
+}
+
+#footer .social a:hover {
+    text-decoration: underline;
+}
+
+.img-responsive {
+    max-width: 100%;
+}
+
+.btn {
+    padding: 12px 15px;
+    border-radius: 30px;
+    background: #ececec;
+    text-decoration: none;
+    border: 1px solid #ececec;
+}
+
+.btn.btn-block {
+    display: block;
+    width: 100%;
+}
+
+.btn.btn-blue {
+    background: #267df4;
+    border: 1px solid #267df4;
+    color: #ffffff;
+}
+
+.form-group {
+    margin-bottom: 1em;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    line-height: 1.5;
+    padding: 0.2em 0.5em;
+    border: 1px solid #cecece;
+    border-radius: 0.2em;
+}
+
+.title {
+    text-align: center;
+}
